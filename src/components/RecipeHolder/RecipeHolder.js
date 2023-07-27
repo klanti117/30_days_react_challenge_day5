@@ -15,7 +15,7 @@ const RecipeHolder = () => {
         { id: 5, name: 'Tuna Salad', ingredient: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam' },
     ])  
 
-    const removeList = (id) => {
+    const removeItemFromList = (id) => {
         // alert(`Calling from RecipeHolder: card ${id} clicked`)
         const newRecipes = recipes.filter((item)=>item.id !== id)
         setRecipes(newRecipes)
@@ -25,7 +25,7 @@ const RecipeHolder = () => {
         <div style={{border:'2px solid black'}}>
             <h3>{recipe.name}</h3>
             <p>{recipe.ingredient}</p>
-            <button onClick={()=> removeList(recipe.id)}>Not tonight</button>
+            <button onClick={()=> removeItemFromList(recipe.id)}>Not tonight</button>
         </div>
     )) 
 
