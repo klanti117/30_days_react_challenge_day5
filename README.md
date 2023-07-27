@@ -1,4 +1,4 @@
-# Getting Started with Create React AppThis is the day5 project of the 30 days of Reach Challenge
+# This is the day5 project of the 30 days of Reach Challenge
 main repo [here](https://github.com/klanti117/30_days_react_challenge)
 # Getting Started with Create React App
 
