@@ -5,7 +5,7 @@ const RecipeCard = ({recipe}) => {
     <div style={{border:'2px solid black'}}>
         <h3>{recipe.name}</h3>
         <p>{recipe.ingredient}</p>
-        <button>Not tonight</button>
+        <button onClick={()=> alert(`card ${recipe.id} clicked`)}>Not tonight</button>
     </div>
   )
 }
