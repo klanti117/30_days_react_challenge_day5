@@ -31,7 +31,7 @@ const RecipeHolder = () => {
 
     return (
         <div style={containerStyles}>
-            {recipeList}
+            {recipeList.length>0? recipeList : 'Lets Order food!!!'}
         </div>
     )
 }
